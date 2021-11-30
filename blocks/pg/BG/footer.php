@@ -1,0 +1,1 @@
+<script src="https://display.buygoods.com/v1/disclaimer?id=disclaimer&account_id=<?php echo $vendor?>"></script>

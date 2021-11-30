@@ -1,0 +1,128 @@
+.color-red {
+    color: #f63a3a;
+}
+
+.color-green {
+    color: #369d12;
+}
+
+.color-grey {
+    color:#9a9a9a;
+}
+
+.bg-grey {
+    background: #F1F1F1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.popup-card {
+    border-radius:20px;
+    background: #ffffff;
+    -webkit-box-shadow: 6px 6px 15px 0 rgba(47, 44, 165, 0.2), -4px -4px 10px 0 #ededed;
+    -moz-box-shadow: 6px 6px 15px 0 rgba(47, 44, 165, 0.2), -4px -4px 10px 0 #ededed;
+    box-shadow: 6px 6px 15px 0 rgba(47, 44, 165, 0.2), -4px -4px 10px 0 #ededed;
+}
+
+/* Video Page  */
+
+#player-wrapper{
+    width:auto;
+    position:relative;
+}
+#glass {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-position: center;
+    z-index: 4;
+}
+#playpause {
+    background: rgba(0,0,0,0.4);
+    background-size: cover;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-position: center;
+    z-index: 4;
+}
+a.soundButton {
+    position: absolute;
+    color: #fff!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: rgba(0,0,0,0.4);
+    cursor: pointer;
+    z-index: 6;
+}
+.soundButton > img {
+    max-width: 85%;
+    transform: translateY(60%);
+}
+#playpause {
+    visibility: hidden;
+}
+#playpause > img {
+    max-width: 85%;
+    transform: translateY(60%);
+}
+.price-box {
+    transition: transform .2s;
+}
+.price-box:hover {
+    transform: scale(1.1);
+}
+.main-cta {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+
+/* Video Page End  */
+
+.timer {
+    width: 216px;
+    height: 74px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+@media (min-width: 993px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
